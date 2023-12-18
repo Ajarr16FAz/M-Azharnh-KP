@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff; /* White background for the body */
+    color: #333; /* Dark text color */
+}
+
+.container-logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+    background-color: #35befd; /* Dominant yellow color */
+}
+
+.login-email {
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px; /* Adjusted padding */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-email h1 {
+    color: #333;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.input-group {
+    margin-top: 20px; /* Adjusted margin */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4800; /* Yellow background for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #343434; /* Darker yellow on hover */
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Adjusted margin */
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #44c1ff;
+    font-weight: bold;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #b5e4ff; /* Light yellow on hover */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .login-email {
+        padding: 10px; /* Adjusted padding */
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .table {
+        margin-top: 5px; /* Adjusted margin */
+    }
+
+    th, td {
+        padding: 8px; /* Adjusted padding */
+    }
+}
